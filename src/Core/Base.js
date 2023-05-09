@@ -7,7 +7,7 @@ export default function BaseDefault({title,styles,children}){
     return(
         <>
             <div className="navbar">
-                <Button onClick={()=>history("/")} variant="primary">Home</Button>
+                <Button onClick={()=>history("/")} variant="primary">Dashboard</Button>
                 <Button  onClick={()=>history("/adduser")} variant="primary">Add User</Button>
             </div>
             <div className={styles}>{title}</div>
